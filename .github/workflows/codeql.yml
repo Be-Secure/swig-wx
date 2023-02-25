@@ -54,8 +54,8 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get install python3 -y
-        sudo apt-get update
-        sudo apt-get upgrade
+        sudo apt-get update -y
+        sudo apt-get upgrade -y
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
