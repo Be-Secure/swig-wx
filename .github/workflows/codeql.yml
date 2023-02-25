@@ -55,6 +55,7 @@ jobs:
       run: |
         sudo apt-get install python3 -y
         sudo apt-get update -y
+        make install
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
